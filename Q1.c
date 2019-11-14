@@ -1,5 +1,5 @@
-// Reader-Writer problem
-// important - use "gcc -pthread Q1.c" to compile this file
+// Reader-Writer problem using lock
+// "gcc -pthread Q1.c" to compile this file
 
 #include<semaphore.h>
 #include<pthread.h>
